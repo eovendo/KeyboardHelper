@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
   s.author             = { "Nodes Agency - iOS" => "ios@nodes.dk" }
   s.social_media_url   = "http://twitter.com/nodes_ios"
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/eovendo/KeyboardHelper.git", :tag => s.version }
+  s.swift_version = "5.0"
+  s.source       = { :git => "https://github.com/eovendo/KeyboardHelper.git", :tag => "#{s.version}" }
   s.source_files  = "KeyboardHelper/Classes"
 end
