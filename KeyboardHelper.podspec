@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KeyboardHelper"
-  s.version      = "1.0.0"
+  s.version      = "2.0.0"
   s.summary      = "Handle UIKeyboard with ease, delegation and strongly typed user info included!"
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/nodes-ios/KeyboardHelper.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/eovendo/KeyboardHelper.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
